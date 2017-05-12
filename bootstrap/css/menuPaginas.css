@@ -1,0 +1,118 @@
+body{
+    background: url('../../img/img8.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar, .dropdown-menu{
+background: #4FB945;
+border: 1px;
+
+}
+
+.nav>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .dropdown-menu>li>a, .dropdown-menu>li{
+  border-bottom: 3px solid transparent;
+}
+.nav>li>a:focus, .nav>li>a:hover,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  border-bottom: 3px solid transparent;
+  background: none;
+}
+.navbar a, .dropdown-menu>li>a, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover, .navbar-toggle{
+ color: #fff;
+}
+.dropdown-menu{
+      -webkit-box-shadow: none;
+    box-shadow:none;
+}
+
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+  border-bottom: #C4E17F 3px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+  border-bottom: #F7FDCA 3px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+  border-bottom: #FECF71 3px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+  border-bottom: #F0776C 3px solid;
+}
+.nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
+  border-bottom: #DB9DBE 3px solid;
+}
+.nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
+  border-bottom: #C49CDE 3px solid;
+}
+.nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
+  border-bottom: #669AE1 3px solid;
+}
+.nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
+  border-bottom: #62C2E4 3px solid;
+}
+
+.navbar-toggle .icon-bar{
+    color: #fff;
+    background: #fff;
+}
+
+/****
+**
+Comienza el menu del catalogo.
+
+***
+*/
+
+.destacados{
+    padding: 20px 0;
+  text-align: center;
+ background: transparent; 
+
+}
+.destacados > div > div{
+  padding: 10px;
+  background: #f3f3f3;
+  opacity: 0.8;
+  border: 2px solid ;
+  border-radius: 4px;
+  transition: 0.2s;
+
+}
+.destacados > div:hover > div{
+  margin-top: -10px;
+  border: 2px solid rgb(200, 200, 200);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  background: rgba(200, 200, 200, 0.1);
+    background: #4FB945;
+  transition: 0.5s;
+}
+
+.destacados >div> div h2{
+  color: #E82A;
+}
+.destacados >div:hover> div h2{
+  color: #f3f3f3;
+} 
+#addProve, #formProdu{
+background: #ffffff;
+opacity: .8;
+  }
+
+
+ #formProdu{
+  background: #fefefe;
+}
+#cabezera > h3 {
+  color: black;
+}
+  .row{
+        margin-top:30px;
+        padding: 0 10px;
+    }
+   
+@media (min-width: 250px) {
+ 
+iframe#carrito{
+  left: -30px;
+} 
+}
